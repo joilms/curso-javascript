@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>DIO-js</title>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body onload="load()">
+        <h1>Home</h1>
+        <button type="button" onclick="clicou()">Clique aqui</button>
+        <h3 id="agradecimento" onclick="redirecionar()"></h3>
+        <p onmouseover="trocar(this)" onmouseout="voltar1(this)">Passe o mouse aqui</p>
+        <p onmouseover="trocar(this)" onmouseout="voltar2(this)">Agora passe o mouse cá</p>
+        <p onmouseover="trocar(this)" onmouseout="voltar3(this)">Passe o mouse aqui também</p>
+        <select onchange="funcaoChange(this)">
+            <option value="Nenhum">---</option>
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option>
+        </select>
+    </body>
+</html>
